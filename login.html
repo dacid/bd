@@ -11,6 +11,7 @@
 	<link href="./css/font-awesome.css" rel="stylesheet">
 	<link href="./css/font-awesome.mini.css" rel="stylesheet">
 	<link href="./css/style.css" rel="stylesheet" >
+	<link href="./css/style_for.css" rel="stylesheet">
 </head>
 <body class="index">
 	<header>
@@ -39,43 +40,22 @@
 	</header>
 	<br>
 	<div class="container">
-	<div class="offset3 span6">
-		<div id="myCarousel" class="carousel slide">
-          <div class="carousel-inner"> 
-                <div class="item active"> 
-                    <img src="./img/inicial1.jpg">                    	    
-              	</div>			
-              	<div class="item">                     
-                    <img src="./img/inicial2.jpg">                    	                        
-              	</div>		
-              	<div class="item">                     
-                    <img src="./img/inicial3.jpg">                    	                        
-              	</div>			
-			</div>
-          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a> 		
+		<div class="offset4">
+			<h1>Login Administradores</h1>
 		</div>
-	</div>	
-	<div class="offset4">
-		<a  id="menu" href="#">
-		<img  href="" src="./img/login_face.png">
-		</a>
+		<div class="offset4 span4">
+			<form class='formulario' method="post" action="login.php">
+	            <div><label>Email</label><input type='email' name='email'></div>
+	            <div><label>Pass</label><input type='password' name='pass'></div>
+	            <div><input type='submit' value='Enviar'></div>	            
+			</form>
+		</div>
 	</div>
+
 	<hr>
 	<footer>
 		<p>&copy; AngelHack</p>
 	</footer>
 </div> <!-- /container -->
-<script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.carousel').carousel({
-                interval: 2000
-            });
-        });
-    </script>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
