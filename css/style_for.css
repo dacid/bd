@@ -35,7 +35,7 @@
  
     background: #e4f1f6;
     background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
-    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #888888 0%,#C9C6C6 100%)
 }
 .formulario input[type='submit']:hover{
     background: #edfcff;
